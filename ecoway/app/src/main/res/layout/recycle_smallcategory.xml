@@ -1,0 +1,145 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가구/인테리어 쓰레기"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_gravity="start"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp" />
+
+        <Button
+            android:id="@+id/reuse_button9"
+            android:layout_width="180dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="       벽지       "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9D998" />
+
+        <Button
+            android:id="@+id/reuse_button10"
+            android:layout_width="180dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-73dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="       LED      "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9D998" />
+
+        <Button
+            android:id="@+id/reuse_button11"
+            android:layout_width="180dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="       거울       "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9D998" />
+
+        <Button
+            android:id="@+id/reuse_button12"
+            android:layout_width="180dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-73dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="       나무       "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9D998" />
+
+        <Button
+            android:id="@+id/reuse_button13"
+            android:layout_width="180dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="      도자기      "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9D998" />
+
+        <Button
+            android:id="@+id/reuse_button14"
+            android:layout_width="180dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-73dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="      라텍스      "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9D998" />
+
+        <Button
+            android:id="@+id/reuse_button15"
+            android:layout_width="180dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="90dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="    매트릭스    "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9D998" />
+
+        <Button
+            android:id="@+id/reuse_button16"
+            android:layout_width="180dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-73dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="       방석       "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9D998" />
+    </LinearLayout>
+
+</LinearLayout>

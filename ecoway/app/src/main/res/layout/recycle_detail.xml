@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:anroid="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ecoway"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:layout_gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/recycling_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="50dp"
+        android:text="벽지"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/recycling_img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        anroid:src="@drawable/wallpaper" />
+
+
+    <TextView
+        android:id="@+id/recycling_step"
+        android:layout_width="294dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="실크 벽지는 비닐이 붙어있기 때문에 종이로 재활용될 수 없어요. \n모두 일반 쓰레기(종량제봉투)로 \n버려주세요."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</LinearLayout>

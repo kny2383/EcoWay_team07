@@ -1,0 +1,58 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/istokweb_bold"
+        android:text="ECOWAY"
+        android:textSize="40px"
+        android:textColor="#000000"
+        android:layout_marginTop="83px"
+        android:layout_marginLeft="43px"/>
+
+    <ImageView
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:src="@drawable/icon_leaf"
+        android:layout_marginTop="93px"
+        android:layout_marginLeft="225px"/>
+
+    <Button
+        android:layout_width="215px"
+        android:layout_height="74px"
+        android:id="@+id/campaignbtn"
+        android:text="환경 캠페인"
+        android:textSize="30px"
+        android:background="@drawable/mainbutton_color_drawable"
+        android:layout_marginTop="169px"
+        android:layout_marginLeft="43px"
+        android:elevation="10px"
+        android:textColor="@color/selected_btn_color"/>
+
+    <Button
+        android:layout_width="283px"
+        android:layout_height="74px"
+        android:id="@+id/cambrandbtn"
+        android:textSize="30px"
+        android:text="환경 캠페인 브랜드"
+        android:background="@drawable/mainbutton_color_drawable"
+        android:layout_marginTop="169px"
+        android:layout_marginLeft="295px"
+        android:elevation="10px"
+        android:textColor="@color/selected_btn_color"/>
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container2"
+        android:layout_width="match_parent"
+        android:layout_height="1632px"
+        android:layout_marginTop="288px"></FrameLayout>
+
+</FrameLayout>

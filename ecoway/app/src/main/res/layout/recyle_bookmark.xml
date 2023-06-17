@@ -1,0 +1,114 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ecoway"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:layout_gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/mypage_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXX님의 마이페이지"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/bookmark_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="리사이클 브랜드"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/brand2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text="프라이탁                   >"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+
+    <Button
+        android:id="@+id/brand3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+
+    <Button
+        android:id="@+id/brand4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+
+    <Button
+        android:id="@+id/brand5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+
+    <Button
+        android:id="@+id/brand6"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+</LinearLayout>

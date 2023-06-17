@@ -1,0 +1,212 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="1400px"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/brand1_name"
+                android:layout_width="230dp"
+                android:layout_height="86dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/casetify"
+                android:gravity="left|center_vertical" />
+
+
+            <TextView
+                android:id="@+id/brand1_img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/casetify2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand1_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="브랜드 슬로건은 SHOW YOUR COLORS (보여줘 너만의 컬러를)로, 글로벌 테크 액세서리 브랜드 케이스티파이(CASETiFY)는 실제로 2,000개 이상의 디자인을 다양한 범퍼 타입과 색상에 따라 고를 수 있고 문구까지 새기는 등 커스터마이징 하여 자기만의 스타일로 개개인의 감성을 표현할 수 있음을 표현하였다고 한다. 낡은 폰케이스를 케이스티파이 매장 수거 박스에 버리면 케이스를 기부 및 재활용하면서 쓰레기를 줄이는 데 기여할 수 있다. 낡은 폰케이스들은 수거되어 공장으로 보내지고, 작은 펠릿 조각들로 분쇄된다. 작게 조각난 플라스틱 펠릿들은 하나로 섞여 Re/CASETiFY™ 펠릿(Pellet)으로 다시 태어난다. " />
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/brand2_name"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/starbucks"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand2_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/starbucks2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand2_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="스타벅스는 제조 음료를 개인컵에 주문하는 경우 혜택을 제공하고 있다. 에코 보너스 스타를 선택 시 개인컵 음료 한 잔당 에코 보너스 스타 1개가 적립(별 적립)되고, 400원 할인 선택 시 개인컵 음료 한 잔당 400원 할인 혜택을 받을 수 있다." />
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/brand3_name"
+                android:layout_width="219dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/innisfree"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand3_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/innisfree2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand3_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="이니스프리는 일상에서 즐겁게 실천할 수 있는 그린라이프를 제안하는 친환경 캠페인인 플레이그린(PLAYGREEN)을 지속해 오고 있다. 페스티벌과 더불어 에코손수건 캠페인, 공병수거 캠페인 등 플레이그린 메시지를 담은 다양한 캠페인을 전개하고 있다. 에코손수건 캠페인은 손수건을 쓰는 습관처럼 작은 행동들이 모여 자연을 지켜낸다는 믿음으로 진행되어온 이니스프리의 대표적인 친환경 캠페인입니다. 2003년 시작한 ‘공병수거 캠페인’은 화장품 용기가 환경에 미치는 영향을 줄이기 위해 다 쓴 화장품 용기를 수거해 재활용하고, 동참해 준 고객에게 베네핏으로 돌려주는 이니스프리의 대표 친환경 캠페인이다. 11년간 공병수거 캠페인을 통해 수거된 공병의 수는 약 3천3백만 개, 플라스틱 및 유리 1,105톤을 수거했으며, 이는 1,418톤의 CO2 저감 효과 및 소나무 10,157 그루를 식재한 효과와 같다." />
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/brand4_name"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/blackyak"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand4_img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/blackyak2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand4_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="블랙야크가 환경의 달을 맞아 다양한 파트너와 함께하는 친환경 캠페인 그린야크(GREENYAK)를 전개한다. 그블랙야크는 이 메시지를 더 많은 소비자들과 공유할 수 있도록 건강 습관 개선 플랫폼 챌린저’와 손잡고 그린야크 챌린지도 진행한다. 친환경 활동을 챌린저스 앱과 개인 인스타그램에 인증하는 방식으로 진행되며, 13일(화)까지 선착순 2천 명의 참가자를 모집한다. 총 상금 300만원은 미션 달성자에게 분할돼 지급되며, 우수 인증자 27명에게는 제주 ‘야크마을’ 숙박권, 국내 폐페트병을 재활용해 만든 플러스틱 티셔츠 등 특별 경품이 전달된다." />
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+
+            <TextView
+                android:id="@+id/brand5_name"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/patagonia"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand5_img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/patagonia3"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand5_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="친환경 글로벌 아웃도어 스포츠 브랜드 파타고니아 코리아는 기후 위기가 가속화되는 현시점에서 의류 산업의 변화를 요구하는 덜 사고, 더 요구하세요(Buy Less, Demand More) 글로벌 캠페인을 전개한다.
+파타고니아의 덜 사고, 더 요구하세요 캠페인은 의류 산업이 야기하는 사회적, 환경적 폐해를 지적하고, 이를 해결할 수 있는 최우선 방법으로 소비자들의 소비 행동 변화를 촉구하고자 기획됐다. 캠페인은 소비가 가장 많이 발생하는 시기인 블랙 프라이데이(Black Friday)를 기점으로 전세계에서 동시에 전개된다.
+파타고니아는 덜 사고, 더 요구하세요 캠페인을 통해, 파타고니아를 비롯한 모든 의류 브랜드의 소비자들에게 소비를 줄이는 행동이 곧 지구를 되살릴 수 있는 해결책이 될 수 있음을 강조한다. " />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

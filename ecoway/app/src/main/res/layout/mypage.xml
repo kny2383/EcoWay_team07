@@ -1,0 +1,135 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ecoway"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:layout_gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/mypage_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXX님의 마이페이지"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내가 즐겨찾기한 목록"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/recyle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text="리사이클 브랜드                   >"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+    <Button
+        android:id="@+id/campagin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text="환경 캠페인                          >"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+    <Button
+        android:id="@+id/campainBrand_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text="환경 캠페인 브랜드              >"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+    <Button
+        android:id="@+id/separation_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:text="분리수거 카테고리               >"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:backgroundTint="#A9D998" />
+
+    <TextView
+        android:id="@+id/memberInfo_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원 정보 수정"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/change_pw_btn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="비밀번호 변경"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:layout_marginLeft="-90dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_rect" />
+
+    <Button
+        android:id="@+id/unsubscribe_btn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="회원 탈퇴"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_rect_white" />
+
+</LinearLayout>

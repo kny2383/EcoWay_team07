@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal">
+
+    <!--<Button
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="&lt;"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        app:backgroundTint="@color/white" />-->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text=" Ecoway"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/unsubscribe_message"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:text="회원 탈퇴를 진행하시면 기존에\n 있던 정보는 모두 삭제됩니다.\n삭제된 정보는 복구할 수 없습니다.\n정말 회원 탈퇴에 동의하십니까?"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:paddingTop="45dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/nonclick_button"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/yes_btn"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:text="동의"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/click_button" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:text="뒤로가기"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/click_button" />
+</LinearLayout>

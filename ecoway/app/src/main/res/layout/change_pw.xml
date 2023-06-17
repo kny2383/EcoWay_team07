@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ecoway"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:layout_gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="비밀번호 변경"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/existingPW_title"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="기존 비밀번호"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="-80dp" />
+
+    <EditText
+        android:id="@+id/existingPW"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_rect"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/newPW_title"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="변경할 비밀번호"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="-80dp" />
+
+    <EditText
+        android:id="@+id/newPW"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_rect"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/checkingPW_title"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:text="변경할 비밀번호 확인"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="-55dp" />
+
+    <EditText
+        android:id="@+id/checkingPW"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_rect"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="변경"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_rect" />
+</LinearLayout>

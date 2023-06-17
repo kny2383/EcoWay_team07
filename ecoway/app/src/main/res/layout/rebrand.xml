@@ -1,0 +1,212 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="1400px"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/brand1_name"
+                android:layout_width="232dp"
+                android:layout_height="86dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/freitag"
+                android:gravity="left|center_vertical" />
+
+
+            <TextView
+                android:id="@+id/brand1_img"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/freitag2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand1_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="오래된 트럭 방수포를 활용하여 다양한 가방을 만든다. 빈티지한 감성이 깃든 세상에 하나뿐인 가방으로 이미 오래전부터 많은 인기를 끌고 있다. 뿐만 아니라 방수포로 비에 젖지 않아 실용적이기도 하다. 온라인에서도 판매하고 있지만 이태원 카페 앤트러사이트 지하에 오프라인 매장이 있으니, 직접 방문해 다양한 디자인을 구경하는 것도 좋을 듯 하다." />
+
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/brand2_name"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/plasticark"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand2_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/plasticark2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand2_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="버려진 플라스틱 업사이클링 하여 생활 소품 등을 만드는 브랜드다. 플라스틱 아크의 ‘아크' (’Ark’)는 ‘노아의 방주’와 비슷한 뜻으로 ‘플라스틱 방주'를 의미한다. 우리를 위협하는 플라스틱을 녹여 새로운 길을 만들고 재앙이 되어버린 쓰레기 홍수 속을 헤쳐 나갈 플라스틱 방주를 만들자는 뜻을 담은 이름이다. 생산 공정 혹은 우리의 생활 속에서 버려지는 폐플라스틱을 업사이클링 하여 만들어진 제품이다. 100% 재활용 소재를 사용하며 원활한 재활용을 위해 ‘No Coating, No Painting, No Bonding’ (코팅 없이, 염료 없이, 접착 없이) 방식으로 만들고 있다. " />
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/brand3_name"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/patagonia"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand3_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/patagoina2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand3_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="환경문제 해결, 지속가능한 의류 생산, 유통에 관심이 많은 브랜드 파타고니아. 파타고니아는 &quot;우리는 우리의 터전, 지구를 되살리기 위해 사업을 합니다&quot; 라는 새로운 사명 아래 환경을 지키기 위한 많은 노력을 하고 있다. 재활용 플라스틱을 사용하여 옷을 만들 뿐 아니라, 필요 없는 옷을 사지 말라고 광고한다. 우리나라에서도 후리스나 반팔 등 많은 제품이 인기를 얻고 있다." />
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/brand4_name"
+                android:layout_width="209dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/continew"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand4_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/continew2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand4_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="자동차 생산과정 및 폐자동차에서 수거되는 천연가죽, 에어백, 안전벨트를 재사용하여 가방 및 액세서리 제품 제작한다. 이미 많은 유명인들의 컨티뉴의 가방을 들어 유명해졌으며, 그 중에서도 방탄소년단 RM이 착용해 더욱 인기를 끌었다." />
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+
+            <TextView
+                android:id="@+id/brand5_name"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/cueclyp"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand5_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/cueclyp2"
+                android:gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/brand5_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_rect_white"
+                android:gravity="left|center_vertical"
+                android:text="버려진 우산 천을 업사이클링해 지갑이나 파우치를 만든데서 시작된 브랜드 큐클리프. 우산 천은 젖지 않는다는 장점이 있어서 실용적이며, 각기 다른 우산천을 사용하기에 One &amp; Only라고 할 수 있다. 현재는 건물 외벽 현수막이나 친환경 소재인 타이백들을 활용한 제품도 제작하고 있다. 실제 외벽 현수막으로 만들어진 카드 지갑을 사용했었는데, 유니크하고 실용적이어서 꽤 오랫동안 잘 사용했다." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
